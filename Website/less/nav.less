@@ -1,0 +1,55 @@
+.background-img {
+    @media @min575px {
+        background-image: url(/images/wood.jpg);
+    }
+}
+nav {
+    background-color: @accent3;
+    display: flex;
+    align-items: center;
+    .smLogoNav{
+        @media @min575px {
+            display: none;
+        }
+        font-family: 'Dancing Script';
+        font-size: @logoFontSize;
+        display: flex;
+        align-items: center;
+        img{
+            height: 40px;
+            width: 40px;
+            margin-right: 1rem;
+        }
+    }
+    .menuButton {
+        font-size: 2rem;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        .CSnavEdit{
+            font-size: @NavSm;
+            padding: 1rem;
+            text-align: center;
+            font-family: @regular;
+            font-weight: 600;
+            text-transform: uppercase;
+            li{
+                padding: 1rem;
+                border-bottom: solid @accent2 3px;
+                @media @min575px{
+                    border-top: solid @accent2 3px;
+                }
+            }
+            li:hover {
+                border-bottom: solid @accent1 3px;
+                @media @min575px{
+                    border-top: solid @accent1 3px;
+                }
+            }
+        }
+    }
+}
+
+
+
