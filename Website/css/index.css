@@ -270,7 +270,6 @@ main {
 .myServices {
   background-color: #f0ddc5;
   padding: 2rem 0;
-  border-bottom: solid #556D3B 1rem;
 }
 .myServices h2 {
   color: #f0ddc5;
@@ -318,6 +317,47 @@ main {
 .myServices .myTiles .myTile p {
   padding: 2rem 0;
   font-size: 1.5rem;
+}
+.highlights {
+  background-color: #f0ddc5;
+  padding: 2rem 0;
+}
+.highlights h2 {
+  color: #f0ddc5;
+  background-color: #556D3B;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.highlights .myTiles2 {
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5b9b9;
+}
+@media (min-width: 768px) {
+  .highlights .myTiles2 {
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .highlights .myTiles2 img {
+    max-width: 250px;
+  }
+}
+.highlights .myTiles2 .tiles2Info {
+  padding: 1.5rem;
+}
+.highlights .myTiles2 .tiles2Info h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 0 1rem 0;
+}
+.highlights .myTiles2 .tiles2Info p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
 }
 footer {
   background-image: url(/images/wood.jpg);
