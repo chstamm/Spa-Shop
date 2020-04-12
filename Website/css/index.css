@@ -146,7 +146,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   .background-img {
     background-image: url(/images/wood.jpg);
   }
@@ -162,7 +162,7 @@ nav .smLogoNav {
   display: flex;
   align-items: center;
 }
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   nav .smLogoNav {
     display: none;
   }
@@ -191,7 +191,7 @@ nav div .CSnavEdit li {
   padding: 1rem;
   border-bottom: solid #556D3B 3px;
 }
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   nav div .CSnavEdit li {
     border-top: solid #556D3B 3px;
   }
@@ -199,7 +199,7 @@ nav div .CSnavEdit li {
 nav div .CSnavEdit li:hover {
   border-bottom: solid #C96F6F 3px;
 }
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   nav div .CSnavEdit li:hover {
     border-top: solid #C96F6F 3px;
   }
@@ -207,7 +207,7 @@ nav div .CSnavEdit li:hover {
 header {
   display: none;
 }
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   header {
     display: block;
     background-color: #2E0000;
@@ -227,4 +227,35 @@ header {
   header div h1 {
     padding: 1rem;
   }
+}
+footer {
+  background-image: url(/images/wood.jpg);
+  color: #A0BD87;
+  font-family: 'Raleway', sans-serif;
+}
+footer div {
+  padding-top: 1rem;
+  background-color: #2E0000;
+}
+footer h2 {
+  background-color: #556D3B;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+footer .followIcons {
+  padding: 1rem 0 5rem 0;
+  font-size: 5rem;
+}
+footer ul {
+  padding: 1rem 0;
+  font-size: 1.8rem;
+}
+footer ul li {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+footer ul li span {
+  padding-right: 1rem;
 }
