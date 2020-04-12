@@ -25,8 +25,8 @@
 
 <body>
 
-	<div class="background-img">
-		<nav class="navbar navbar-expand-sm container-sm">
+	<nav class="background-img">
+		<div class="nav1 navbar navbar-expand-sm container-sm">
 			<a class="smLogoNav" href="index.html">
 				<img id="logo" src="images/gardenSpaLogo.png" alt="Gargen Spa Logo">
 				Garden Spa
@@ -56,14 +56,20 @@
 					</li>
 				</ul>
 			</div>
-		</nav>
-	</div>
+		</div>
+	</nav>
 	<header class="container-fluid">
 		<div class="container-sm">
 			<img src="images/gardenSpaLogo.png">
 			<h1>Garden Spa</h1>
 		</div>
 	</header>
+	<nav class="myBreadCrumb container-fluid" aria-label="breadcrumb">
+		<ol class="breadcrumb container-sm">
+			<li class="breadcrumb-item"><a href="index.html">Home</a> </li>
+			<li class="breadcrumb-item myActive" aria-current="page">Services</li>
+		</ol>
+	</nav>
 
 	<footer class="container-fluid">
 		<div class="container-sm">
@@ -117,7 +123,7 @@
 
 	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 
 </body>

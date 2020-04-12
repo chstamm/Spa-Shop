@@ -151,35 +151,36 @@ html {
     background-image: url(/images/wood.jpg);
   }
 }
-nav {
+.nav1 {
   background-color: #A0BD87;
   display: flex;
   align-items: center;
 }
-nav .smLogoNav {
+.nav1 .smLogoNav {
   font-family: 'Dancing Script';
   font-size: 2.5rem;
   display: flex;
   align-items: center;
+  padding-left: 1rem;
 }
 @media (min-width: 576px) {
-  nav .smLogoNav {
+  .nav1 .smLogoNav {
     display: none;
   }
 }
-nav .smLogoNav img {
+.nav1 .smLogoNav img {
   height: 40px;
   width: 40px;
   margin-right: 1rem;
 }
-nav .menuButton {
+.nav1 .menuButton {
   font-size: 2rem;
 }
-nav div {
+.nav1 div {
   display: flex;
   justify-content: center;
 }
-nav div .CSnavEdit {
+.nav1 div .CSnavEdit {
   font-size: 1.5rem;
   padding: 1rem;
   text-align: center;
@@ -187,22 +188,52 @@ nav div .CSnavEdit {
   font-weight: 600;
   text-transform: uppercase;
 }
-nav div .CSnavEdit li {
+.nav1 div .CSnavEdit li {
   padding: 1rem;
   border-bottom: solid #556D3B 3px;
 }
 @media (min-width: 576px) {
-  nav div .CSnavEdit li {
+  .nav1 div .CSnavEdit li {
     border-top: solid #556D3B 3px;
   }
 }
-nav div .CSnavEdit li:hover {
+.nav1 div .CSnavEdit li:hover {
   border-bottom: solid #C96F6F 3px;
 }
 @media (min-width: 576px) {
-  nav div .CSnavEdit li:hover {
+  .nav1 div .CSnavEdit li:hover {
     border-top: solid #C96F6F 3px;
   }
+}
+.myBreadCrumb {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: #C96F6F;
+  color: #610000;
+  border-top: solid #556D3B 0.5rem;
+}
+@media (min-width: 576px) {
+  .myBreadCrumb {
+    padding: 1rem;
+  }
+}
+.myBreadCrumb ol {
+  margin: 0 auto;
+  background-color: #C96F6F;
+}
+.myBreadCrumb ol .myActive {
+  font-size: 1.5rem;
+  color: #2E0000;
+}
+@media (min-width: 576px) {
+  .myBreadCrumb ol .myActive {
+    font-size: 2.5rem;
+  }
+}
+.myBreadCrumb ol .myActive::before {
+  color: #940000;
 }
 header {
   display: none;
@@ -216,7 +247,7 @@ header {
     font-size: 5rem;
   }
   header div {
-    padding: 6rem 0 2rem 0;
+    padding: 3rem 0 2rem 0;
     display: flex;
     align-items: center;
   }
@@ -228,9 +259,14 @@ header {
     padding: 1rem;
   }
 }
+.myCarousel {
+  background-color: #A0BD87;
+  border-top: solid #556D3B 1rem;
+  border-bottom: solid #556D3B 1rem;
+}
 footer {
   background-image: url(/images/wood.jpg);
-  color: #A0BD87;
+  color: #f0ddc5;
   font-family: 'Raleway', sans-serif;
 }
 footer div {

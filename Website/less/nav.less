@@ -3,7 +3,7 @@
         background-image: url(/images/wood.jpg);
     }
 }
-nav {
+.nav1 {
     background-color: @accent3;
     display: flex;
     align-items: center;
@@ -15,6 +15,7 @@ nav {
         font-size: @logoFontSize;
         display: flex;
         align-items: center;
+        padding-left: 1rem;
         img{
             height: 40px;
             width: 40px;
@@ -51,5 +52,31 @@ nav {
     }
 }
 
+.myBreadCrumb {
+    @media @min576px {
+        padding: 1rem;
+    }
+    font-family: @regular;
+    font-size: @NavSm;
+    font-weight: 600;
+    padding: .5rem;
+    background-color: @accent1;
+    color: lighten(@dbrown, 10%);
+    border-top: solid @accent2 .5rem;
+    ol {
+        margin: 0 auto;
+        background-color: @accent1;
+        .myActive {
+            @media @min576px {
+                font-size: @NavSm + 1;
+            }
+            font-size: @NavSm;
+            color: @dbrown;
+        }
+        .myActive::before {
+            color: lighten(@dbrown, 20%);
+        }
+    }
+}
 
 
