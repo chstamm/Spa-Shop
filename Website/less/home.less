@@ -1,5 +1,50 @@
+main {
+    font-family: @regular;
+}
 .myCarousel {
-    background-color: @accent3;
+    background-image: url(/images/wood.jpg);
     border-top: solid @accent2 1rem;
     border-bottom: solid @accent2 1rem;
+}
+
+.myServices {
+    background-color: @accent4;
+    padding: 2rem 0;
+    h2 {
+        .titleh2()
+    }
+    .myTiles {
+       .myTile {
+           padding: 2rem;
+           text-align: center;
+           h3{
+            @media @min576px {
+                font-size: @h3;
+               }
+            @media @min768px{
+                font-size: @h2;
+            }
+               font-family: @logoFont;
+               font-size: @h2;
+               font-weight: 600;
+               padding: 2rem 0;
+           }
+           img {
+               @media @min576px {
+                width: 100%;
+                border: solid @accent1 0.5rem;
+               }
+               @media @min992px {
+                border: solid @accent1 1rem;
+               }
+               border: solid @accent1 1rem;
+               border-radius: 25rem;
+               width: 300px;
+           }
+           p {
+               padding: 2rem 0;
+               font-size: @body;
+           }
+       }
+    }
 }

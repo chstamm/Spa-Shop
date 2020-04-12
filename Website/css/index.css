@@ -259,10 +259,65 @@ header {
     padding: 1rem;
   }
 }
+main {
+  font-family: 'Raleway', sans-serif;
+}
 .myCarousel {
-  background-color: #A0BD87;
+  background-image: url(/images/wood.jpg);
   border-top: solid #556D3B 1rem;
   border-bottom: solid #556D3B 1rem;
+}
+.myServices {
+  background-color: #f0ddc5;
+  padding: 2rem 0;
+  border-bottom: solid #556D3B 1rem;
+}
+.myServices h2 {
+  color: #f0ddc5;
+  background-color: #556D3B;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+.myServices .myTiles .myTile {
+  padding: 2rem;
+  text-align: center;
+}
+.myServices .myTiles .myTile h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+@media (min-width: 576px) {
+  .myServices .myTiles .myTile h3 {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .myServices .myTiles .myTile h3 {
+    font-size: 2.5rem;
+  }
+}
+.myServices .myTiles .myTile img {
+  border: solid #C96F6F 1rem;
+  border-radius: 25rem;
+  width: 300px;
+}
+@media (min-width: 576px) {
+  .myServices .myTiles .myTile img {
+    width: 100%;
+    border: solid #C96F6F 0.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .myServices .myTiles .myTile img {
+    border: solid #C96F6F 1rem;
+  }
+}
+.myServices .myTiles .myTile p {
+  padding: 2rem 0;
+  font-size: 1.5rem;
 }
 footer {
   background-image: url(/images/wood.jpg);
@@ -274,6 +329,7 @@ footer div {
   background-color: #2E0000;
 }
 footer h2 {
+  color: #f0ddc5;
   background-color: #556D3B;
   font-family: 'Dancing Script', cursive;
   font-size: 2.5rem;
