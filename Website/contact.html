@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Spa - Contact</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,8 +21,9 @@
 	<!-- local css -->
 	<link href="css/index.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-	
+
 	<nav class="background-img">
 		<div class="nav1 navbar navbar-expand-sm container-sm">
 			<a class="smLogoNav" href="index.html">
@@ -70,6 +72,40 @@
 			<li class="breadcrumb-item myActive" aria-current="page">Contact</li>
 		</ol>
 	</nav>
+
+	<main class="container-fluid">
+		<div class="container-md">
+			<form>
+				<div class="form-group">
+					<label for="nameInput">Full Name</label>
+					<input type="text" class="form-control" id="nameInput" placeholder="John Smith">
+					<div class="row">
+						<div class="col">
+							<label for="emailInput">Email</label>
+							<input type="text" class="form-control" id="emailInput" placeholder="email@email.com">
+						</div>
+						<div class="col">
+							<label for="phoneInput">Phone</label>
+							<input type="text" class="form-control" id="phoneInput" placeholder="555-555-5555">
+						</div>
+					</div>
+					<label for="contactSelect">Contact Preference</label>
+					<select class="custom-select" id="contactSelect">
+						<option selected>Choose...</option>
+						<option for="phoneInput" value="1">Phone</option>
+						<option for="emailInput" value="2">Email</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="message">Example textarea</label>
+					<textarea class="form-control" id="message" rows="2"></textarea>
+				  </div>
+				<div class="myButton">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</form>
+		</div>
+	</main>
 
 	<footer class="container-fluid">
 		<div class="container-sm">
@@ -127,4 +163,5 @@
 	<script type="text/javascript" src="js/index.js"></script>
 
 </body>
+
 </html>
