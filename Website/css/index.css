@@ -320,7 +320,7 @@ main {
 }
 .highlights {
   background-color: #f0ddc5;
-  padding: 2rem 0;
+  padding: 2rem 0 4rem 0;
 }
 .highlights h2 {
   color: #f0ddc5;
@@ -358,6 +358,91 @@ main {
 .highlights .myTiles2 .tiles2Info p {
   font-size: 1.5rem;
   line-height: 1.8rem;
+}
+.highlights .myTiles2 .tiles2Info .myButtonStyle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.highlights .myTiles2 .tiles2Info button {
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+  color: #f0ddc5;
+  background-color: #C96F6F;
+  border: none;
+  border-radius: 0rem;
+}
+.lastTiles {
+  background-color: #f0ddc5;
+  border-bottom: solid #556D3B 1rem;
+  padding-bottom: 4rem;
+}
+.lastTiles .mySmallHeader {
+  color: #f0ddc5;
+  background-color: #556D3B;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .lastTiles .mySmallHeader {
+    display: none;
+  }
+}
+.lastTiles h2 {
+  color: #f0ddc5;
+  background-color: #556D3B;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.lastTiles .myMedHeaders {
+  display: none;
+}
+@media (min-width: 768px) {
+  .lastTiles .myMedHeaders {
+    display: block;
+  }
+}
+.lastTiles .myTiles3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5b9b9;
+  padding: 0;
+  margin: 1rem;
+}
+.lastTiles .myTiles3 button {
+  font-size: 1.5rem;
+  color: #f0ddc5;
+  background-color: #C96F6F;
+  border: none;
+  border-radius: 0rem;
+}
+.lastTiles .myTiles3 .myButtonStyle {
+  display: flex;
+  justify-content: center;
+}
+.lastTiles .myTiles3 button {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #f0ddc5;
+  background-color: #C96F6F;
+  border: none;
+  border-radius: 0rem;
+}
+.lastTiles .myTiles3 img {
+  width: 100%;
+  padding: 1rem;
+}
+.lastTiles .hours {
+  background-color: #2E0000;
+  color: #f0ddc5;
+  font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
+  margin: 1rem;
+  padding: 2rem;
+  line-height: 4.5rem;
 }
 footer {
   background-image: url(/images/wood.jpg);
