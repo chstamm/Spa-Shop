@@ -444,6 +444,36 @@ main {
   padding: 2rem;
   line-height: 4.5rem;
 }
+.formBackgroundColor {
+  background-color: #f0ddc5;
+}
+form {
+  max-width: 800px;
+  margin: auto;
+  padding: 3rem;
+  background-color: #e5b9b9;
+}
+form label {
+  font-size: 1.8rem;
+  font-family: 'Dancing Script', cursive;
+}
+form input {
+  margin: 1rem 0 3rem 0;
+}
+form select {
+  margin: 1rem 0 3rem 0;
+}
+form textarea {
+  margin: 1rem 0 3rem 0;
+}
+form button {
+  font-size: 1.5rem;
+  color: #f0ddc5;
+  background-color: #C96F6F;
+  border: none;
+  border-radius: 0rem;
+  padding: 1rem;
+}
 .servicesMain {
   background-color: #f0ddc5;
 }
